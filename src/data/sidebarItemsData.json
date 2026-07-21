@@ -1,0 +1,47 @@
+[
+  {
+    "id": "dashboard",
+    "title": "Dashboard",
+    "img": "home"
+  },
+  {
+    "id": "transactions",
+    "title": "Transactions",
+    "img": "transactions"
+  },
+  {
+    "id": "accounts",
+    "title": "Accounts",
+    "img": "accounts"
+  },
+  {
+    "id": "investments",
+    "title": "Investments",
+    "img": "investments"
+  },
+  {
+    "id": "credit-cards",
+    "title": "Credit Cards",
+    "img": "credit"
+  },
+  {
+    "id": "loans",
+    "title": "Loans",
+    "img": "loans"
+  },
+  {
+    "id": "services",
+    "title": "Services",
+    "img": "services"
+  },
+  {
+    "id": "privileges",
+    "title": "My Privileges",
+    "img": "privileges"
+  },
+  {
+    "id": "setting",
+    "title": "Setting",
+    "img": "setting"
+  }
+]

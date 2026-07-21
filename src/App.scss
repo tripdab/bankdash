@@ -1,0 +1,11 @@
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.dashboard-body {
+  flex: 1; // Говорит блоку: "Займи ВСЁ оставшееся место справа"
+  display: flex;
+  flex-direction: column; // Располагает хэдер строго НАД контентом (сверху вниз)
+}
