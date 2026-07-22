@@ -4,6 +4,7 @@
 body {
   font-family: var(--font-main);
   font-size: 18px;
+  font-weight: 400;
 }
 
 .title {
@@ -11,4 +12,11 @@ body {
   font-size: 28px;
   color: var(--main);
   margin-right: 15px;
+}
+
+.container {
+  max-width: 1190px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
 }

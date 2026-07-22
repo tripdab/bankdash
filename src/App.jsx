@@ -10,7 +10,15 @@ function App() {
       <div className='dashboard-body'>
         <Header />
         <main>
-          <Cards />
+          <div className='container'>
+            <Cards />
+
+            <div className=''>Recent Transaction</div>
+            <div className=''>Weekly Activity</div>
+            <div className=''>Expense Statistics</div>
+            <div className=''>Quick Transfer</div>
+            <div className=''>Balance History</div>
+          </div>
         </main>
       </div>
     </div>

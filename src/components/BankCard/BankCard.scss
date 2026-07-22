@@ -1,0 +1,88 @@
+.bank-card {
+  width: 350px;
+  min-height: 235px;
+  border-radius: 25px;
+  font-family: var(--font-secondary);
+  color: #fff;
+  background: linear-gradient(
+    107.38deg,
+    #4c49ed 2.35%,
+    #0a06f4 101.08%
+  );
+
+  // .bank-card__top
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px 33px 26px;
+  }
+
+  // .bank-card__balance
+  &__balance {
+  }
+
+  // .bank-card__label
+  &__label {
+    font-size: 12px;
+    // bank-card__label--info
+    &--info {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+
+  // .bank-card__balance-value
+
+  &__balance-value {
+  }
+
+  // .bank-card__chip
+
+  &__chip {
+  }
+
+  // .bank-card__middle
+
+  &__middle {
+    padding: 0 0 35px 26px;
+  }
+
+  // .bank-card__info
+  &__info {
+    display: flex;
+    column-gap: 67px;
+
+    // bank-card__info-box
+    &-box {
+    }
+  }
+
+  // .bank-card__info-value
+
+  &__info-value {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 3px;
+  }
+
+  // .bank-card__bottom
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 25px 25px;
+    // width: 350px;
+    // height: 70px;
+    padding: 20px 24px 20px 26px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  // .bank-card__number
+
+  &__number {
+  }
+}

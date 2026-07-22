@@ -5,7 +5,7 @@
 }
 
 .dashboard-body {
-  flex: 1; // Говорит блоку: "Займи ВСЁ оставшееся место справа"
+  flex: 1;
   display: flex;
-  flex-direction: column; // Располагает хэдер строго НАД контентом (сверху вниз)
+  flex-direction: column;
 }
