@@ -3,12 +3,20 @@
   min-height: 235px;
   border-radius: 25px;
   font-family: var(--font-secondary);
-  color: #fff;
-  background: linear-gradient(
-    107.38deg,
-    #4c49ed 2.35%,
-    #0a06f4 101.08%
-  );
+
+  &--dark {
+    color: #fff;
+    background: linear-gradient(
+      107.38deg,
+      #4c49ed 2.35%,
+      #0a06f4 101.08%
+    );
+  }
+
+  &--light {
+    border: 1px solid #dfeaf2;
+    background: #fff;
+  }
 
   // .bank-card__top
   &__top {

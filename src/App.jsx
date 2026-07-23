@@ -9,7 +9,7 @@ function App() {
       <Sidebar />
       <div className='dashboard-body'>
         <Header />
-        <main>
+        <main className='main'>
           <div className='container'>
             <Cards />
 
