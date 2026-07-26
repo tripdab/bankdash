@@ -16,6 +16,14 @@
   &--light {
     border: 1px solid #dfeaf2;
     background: #fff;
+    .bank-card__label {
+      color: #718ebf;
+    }
+
+    .bank-card__bottom {
+      border-top: 1px solid #dfeaf2;
+      margin-top: -1px;
+    }
   }
 
   // .bank-card__top
@@ -25,10 +33,6 @@
     padding: 24px 24px 33px 26px;
   }
 
-  // .bank-card__balance
-  &__balance {
-  }
-
   // .bank-card__label
   &__label {
     font-size: 12px;
@@ -36,16 +40,6 @@
     &--info {
       color: rgba(255, 255, 255, 0.7);
     }
-  }
-
-  // .bank-card__balance-value
-
-  &__balance-value {
-  }
-
-  // .bank-card__chip
-
-  &__chip {
   }
 
   // .bank-card__middle
@@ -58,10 +52,6 @@
   &__info {
     display: flex;
     column-gap: 67px;
-
-    // bank-card__info-box
-    &-box {
-    }
   }
 
   // .bank-card__info-value
@@ -87,10 +77,5 @@
       rgba(255, 255, 255, 0.15) 0%,
       rgba(255, 255, 255, 0) 100%
     );
-  }
-
-  // .bank-card__number
-
-  &__number {
   }
 }

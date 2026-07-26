@@ -1,8 +1,10 @@
-@use './styles/vars';
 @use './styles/reset';
+@use './styles/fonts';
+@use './styles/vars';
 
 body {
   font-family: var(--font-main);
+  color: var(--main);
   font-size: 18px;
   font-weight: 400;
 }
@@ -14,7 +16,6 @@ body {
 .title {
   font-weight: 600;
   font-size: 28px;
-  color: var(--main);
   margin-right: 15px;
 }
 
