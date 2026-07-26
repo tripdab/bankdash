@@ -1,0 +1,84 @@
+.transaction {
+  // .transaction__card
+  &__card {
+    padding: 25px 24px 25px 25px;
+    max-width: 350px;
+    margin-top: 20px;
+  }
+
+  // .transaction__list
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  // .transaction__item
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  // .transaction__icon-box
+
+  &__icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+
+    &--yellow {
+      background: #fff5d9;
+    }
+    &--blue {
+      background: #e7edff;
+    }
+    &--green {
+      background: #dcfaf8;
+    }
+  }
+
+  // .transaction__info
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-left: 17px;
+    padding-right: 13px;
+    margin-right: auto;
+  }
+
+  // .transaction__name
+  &__name {
+    font-weight: 500;
+    font-size: 16px;
+    color: #232323;
+  }
+
+  // .transaction__date
+  &__date {
+    font-weight: 400;
+    font-size: 15px;
+    color: #718ebf;
+  }
+
+  // .transaction__value
+
+  &__value {
+    font-weight: 500;
+    font-size: 16px;
+
+    &--expense {
+      color: #ff4b4a;
+    }
+
+    &--income {
+      color: #41d4a8;
+    }
+  }
+}

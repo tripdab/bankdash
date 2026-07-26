@@ -1,24 +1,15 @@
 .cards {
   max-width: 730px;
   margin: 24px 0;
-  // .cards__header
 
+  // .cards__header
   &__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
-  }
-
-  // .cards__title
-
-  &__title {
-    font-weight: 600;
-    font-size: 22px;
   }
 
   // .cards__btn
-
   &__btn {
     font-weight: 600;
     font-size: 17px;
@@ -29,5 +20,6 @@
   &__list {
     display: flex;
     gap: 30px;
+    margin-top: 20px;
   }
 }

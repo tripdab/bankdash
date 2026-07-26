@@ -3,9 +3,9 @@ import './Cards.scss';
 
 const Cards = () => {
   return (
-    <div className='cards'>
+    <section className='cards'>
       <div className='cards__header'>
-        <h2 className='cards__title'>My Cards</h2>
+        <h2 className='section-title'>My Cards</h2>
         <button className='cards__btn'>See All</button>
       </div>
       <div className='cards__list'>
@@ -24,7 +24,7 @@ const Cards = () => {
           number='3778 **** **** 1234'
         />
       </div>
-    </div>
+    </section>
   );
 };
 

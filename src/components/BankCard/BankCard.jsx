@@ -16,7 +16,7 @@ const BankCard = ({
   const currentLogo = isDark ? cardLogoLight : cardLogoDark;
 
   return (
-    <div className={`bank-card bank-card--${theme}`}>
+    <div className={`bank-card bank-card--${theme} widget-block`}>
       <div className='bank-card__top'>
         <div className='bank-card__balance'>
           <span className='bank-card__label'>Balance</span>
