@@ -1,15 +1,6 @@
 import './Transaction.scss';
 import { TRANSACTIONS_DATA } from '../../data/transaction';
 
-// id,
-// icon,
-// iconColor,
-// name,
-// date,
-// dateTime,
-// value,
-// type,
-
 const Transaction = () => {
   return (
     <section className='transaction'>

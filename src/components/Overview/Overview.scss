@@ -1,0 +1,20 @@
+.overview {
+  // .overview__cards-row
+
+  &__cards-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-top: 24px;
+  }
+
+  // .overview__charts-row
+
+  &__charts-row {
+  }
+
+  // .overview__charts-transfers
+
+  &__charts-transfers {
+  }
+}
