@@ -2,8 +2,11 @@
   // .transaction__card
   &__card {
     padding: 25px 24px 25px 25px;
-    max-width: 350px;
     margin-top: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   // .transaction__list

@@ -17,35 +17,40 @@ const BankCard = ({
 
   return (
     <div className={`bank-card bank-card--${theme} widget-block`}>
-      <div className='bank-card__top'>
-        <div className='bank-card__balance'>
-          <span className='bank-card__label'>Balance</span>
-          <p className='bank-card__balance-value'>{balance}</p>
-        </div>
-        <div className='bank-card__chip'>
-          <img src={currentChip} alt='Card chip icon' />
-        </div>
-      </div>
-      <div className='bank-card__middle'>
-        <div className='bank-card__info'>
-          <div className='bank-card__info-box'>
-            <span className='bank-card__label bank-card__label--info'>
-              CARD HOLDER
-            </span>
-            <p className='bank-card__info-value'>{holder}</p>
+      <div className='bank-card__header'>
+        <div className='bank-card__top'>
+          <div className='bank-card__balance'>
+            <span className='bank-card__label'>Balance</span>
+            <p className='bank-card__balance-value'>{balance}</p>
           </div>
+          <div className='bank-card__chip'>
+            <img src={currentChip} alt='Card chip icon' />
+          </div>
+        </div>
+        <div className='bank-card__bottom'>
+          <div className='bank-card__info'>
+            <div className='bank-card__info-box'>
+              <span className='bank-card__label bank-card__label--info'>
+                CARD HOLDER
+              </span>
+              <p className='bank-card__info-value'>{holder}</p>
+            </div>
 
-          <div className='bank-card__info-box'>
-            <span className='bank-card__label bank-card__label--info'>
-              VALID THRU
-            </span>
-            <p className='bank-card__info-value'>{validThru}</p>
+            <div className='bank-card__info-box'>
+              <span className='bank-card__label bank-card__label--info'>
+                VALID THRU
+              </span>
+              <p className='bank-card__info-value'>{validThru}</p>
+            </div>
           </div>
         </div>
       </div>
-      <div className='bank-card__bottom'>
+
+      <div className='bank-card__footer'>
         <span className='bank-card__number'>{number}</span>
-        <img src={currentLogo} alt='Card logo icon' />
+        <div className='bank-card__icon'>
+          <img src={currentLogo} alt='Card logo icon' />
+        </div>
       </div>
     </div>
   );
