@@ -1,6 +1,7 @@
 import './Overview.scss';
 import Cards from '../Cards/Cards';
 import Transaction from '../Transaction/Transaction';
+import Activity from '../Activity/Activity';
 
 const Overview = () => {
   return (
@@ -11,7 +12,7 @@ const Overview = () => {
       </div>
 
       <div className='overview__charts-row'>
-        <div className=''>Weekly Activity</div>
+        <Activity />
         <div className=''>Expense Statistics</div>
       </div>
 

@@ -1,0 +1,90 @@
+.activity {
+  margin-top: 20px;
+
+  // .activity__card
+  &__card {
+    max-width: 730px;
+    min-height: 322px;
+    margin-top: 16px;
+    padding: 28px 30px 28px 33px;
+    color: #718ebf;
+    fill: #718ebf;
+    font-size: 13px;
+  }
+
+  // .activity__legend-list
+  &__legend-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+  }
+  // .activity__legend-item
+  &__legend-item {
+    display: flex;
+    align-items: center;
+  }
+  // .activity__dot
+  &__dot {
+    display: inline-block;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    flex-shrink: 0;
+
+    // .activity__dot--deposit
+    &--deposit {
+      background: var(--chart-deposit-color);
+    }
+
+    // .activity__dot--withdraw
+    &--withdraw {
+      background: var(--chart-withdraw-color);
+    }
+  }
+
+  //
+  //
+
+  // .activity__chart
+  &__chart {
+    width: 100%;
+    max-width: 667px;
+    margin-top: 22px;
+    // background: #000;
+  }
+  // .activity__y-value
+  &__y-value-list {
+  }
+
+  // .activity__chart-grid
+  &__chart-grid {
+  }
+
+  // .activity__x-value
+  &__x-value {
+  }
+
+  // .activity__svg-row
+  &__svg-row {
+  }
+
+  // .activity__svg-label-y
+  &__svg-label-y {
+  }
+
+  // .activity__svg-label-x
+  &__svg-label-x {
+  }
+
+  // .activity__svg-line
+  &__svg-line {
+    // stroke: #f3f3f5;
+    // stroke-width: 1px;
+  }
+}
+
+// Test
+
+// пустой коммент справа от свойства - это тест*

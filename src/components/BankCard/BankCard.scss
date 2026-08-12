@@ -2,6 +2,7 @@
   width: 350px;
   font-family: var(--font-secondary);
 
+  // .bank-card__header
   &__header {
     padding: 24px 24px 35px 26px;
   }
@@ -35,6 +36,7 @@
     margin-bottom: 33px;
   }
 
+  // .bank-card__balance
   &__balance {
     display: flex;
     flex-direction: column;
@@ -56,6 +58,7 @@
     line-height: 1.2;
   }
 
+  // bank-card__chip
   &__chip {
     // height: 30px;
     display: flex;
@@ -98,6 +101,7 @@
     );
   }
 
+  // .bank-card__number
   &__number {
     font-weight: 600;
     font-size: 22px;
