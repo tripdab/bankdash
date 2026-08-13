@@ -66,7 +66,11 @@ const Activity = () => {
               responsive
               data={chartData}
               barGap={12}>
-              <CartesianGrid vertical={false} strokeWidth={1} />
+              <CartesianGrid
+                vertical={false}
+                strokeWidth={1}
+                syncWithTicks={true}
+              />
               {/* X-value */}
               <XAxis
                 dataKey='day'
@@ -83,9 +87,10 @@ const Activity = () => {
                 tick={axisTickStyles}
                 axisLine={false}
                 tickLine={false}
-                // dx={0}
               />
-              <Tooltip />
+              <Tooltip
+                cursor={{ fill: 'var(--active-bar-hover-bg)' }}
+              />
               {/* withdraw bar */}
               <Bar
                 barSize={15}

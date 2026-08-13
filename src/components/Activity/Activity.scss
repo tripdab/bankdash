@@ -44,47 +44,10 @@
     }
   }
 
-  //
-  //
-
   // .activity__chart
   &__chart {
     width: 100%;
-    max-width: 667px;
+    max-width: 667px; // 667
     margin-top: 22px;
-    // background: #000;
-  }
-  // .activity__y-value
-  &__y-value-list {
-  }
-
-  // .activity__chart-grid
-  &__chart-grid {
-  }
-
-  // .activity__x-value
-  &__x-value {
-  }
-
-  // .activity__svg-row
-  &__svg-row {
-  }
-
-  // .activity__svg-label-y
-  &__svg-label-y {
-  }
-
-  // .activity__svg-label-x
-  &__svg-label-x {
-  }
-
-  // .activity__svg-line
-  &__svg-line {
-    // stroke: #f3f3f5;
-    // stroke-width: 1px;
   }
 }
-
-// Test
-
-// пустой коммент справа от свойства - это тест*
