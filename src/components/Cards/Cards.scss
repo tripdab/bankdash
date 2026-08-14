@@ -16,8 +16,17 @@
   }
 
   // cards__list
+  // &__list {
+  //   display: flex;
+  //   gap: 30px;
+  //   margin-top: 20px;
+  // }
+
+  // test
+
   &__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-top: 20px;
   }

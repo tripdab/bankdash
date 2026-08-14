@@ -3,7 +3,8 @@
   &__card {
     padding: 25px 24px 25px 25px;
     margin-top: 20px;
-    width: 350px;
+    width: 100%;
+    min-height: 235px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -3,18 +3,8 @@
 
   &__cards-row {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 350px;
     gap: 30px;
     margin-top: 24px;
-  }
-
-  // .overview__charts-row
-
-  &__charts-row {
-  }
-
-  // .overview__charts-transfers
-
-  &__charts-transfers {
   }
 }
