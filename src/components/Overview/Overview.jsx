@@ -2,6 +2,7 @@ import './Overview.scss';
 import Cards from '../Cards/Cards';
 import Transaction from '../Transaction/Transaction';
 import Activity from '../Activity/Activity';
+import Statistics from '../Statistics/Statistics';
 
 const Overview = () => {
   return (
@@ -14,7 +15,7 @@ const Overview = () => {
 
         <div className='overview__charts-row'>
           <Activity />
-          <div className=''>Expense Statistics</div>
+          <Statistics />
         </div>
 
         <div className='overview__charts-transfers'>

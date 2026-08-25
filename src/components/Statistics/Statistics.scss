@@ -1,0 +1,10 @@
+.statistics {
+  // .statistics__card
+  &__card {
+    max-width: 350px;
+    height: 322px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
