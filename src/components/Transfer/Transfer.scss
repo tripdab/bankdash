@@ -1,0 +1,56 @@
+.transfer {
+  // .transfer__slider
+  &__slider {
+    padding-top: 35px;
+  }
+  // .transfer__form
+  &__form {
+  }
+
+  // .transfer__label
+  &__label {
+  }
+
+  // .transfer__input
+  &__input {
+  }
+
+  // .transfer__btn
+  &__btn {
+  }
+}
+.slider {
+  // .slider__item
+
+  &__item {
+  }
+
+  // .slider__btn
+  &__btn {
+  }
+}
+.user-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  // .user-card__img
+  &__img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  // .user-card__name
+  &__name {
+    font-size: 16px;
+    color: var(--user-name-color);
+    margin-bottom: 5px;
+  }
+
+  // .user-card__role
+  &__role {
+    font-size: 15px;
+    color: var(--user-role-color);
+  }
+}

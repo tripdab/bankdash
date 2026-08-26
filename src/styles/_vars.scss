@@ -1,4 +1,7 @@
 :root {
+  // Test BG Colors
+  --test-bg-color: background-color: rgba(164, 222, 164, 0.57);
+
   // Global Colors
   --primary: #feaa09;
   --main: #343c6a;
@@ -21,8 +24,9 @@
   --pie-chart-text-color: var(--main-white-color);
   --pie-chart-stroke-color: var(--main-white-color);
 
-  // Test BG Colors
-  --test-bg-color: background-color: rgba(164, 222, 164, 0.57);
+  // Quick Transfer Colors
+  --user-name-color: #232323;
+  --user-role-color: var(--color-muted);
 
   // Fonts
   --font-main: 'Inter', sans-serif;

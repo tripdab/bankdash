@@ -1,25 +1,26 @@
 import './Overview.scss';
-import Cards from '../Cards/Cards';
-import Transaction from '../Transaction/Transaction';
-import Activity from '../Activity/Activity';
-import Statistics from '../Statistics/Statistics';
+// import Cards from '../Cards/Cards';
+// import Transaction from '../Transaction/Transaction';
+// import Activity from '../Activity/Activity';
+// import Statistics from '../Statistics/Statistics';
+import Transfer from '../Transfer/Transfer';
 
 const Overview = () => {
   return (
     <div className='overview'>
       <div className='container'>
         <div className='overview__cards-row'>
-          <Cards />
-          <Transaction />
+          {/* <Cards /> */}
+          {/* <Transaction /> */}
         </div>
 
         <div className='overview__charts-row'>
-          <Activity />
-          <Statistics />
+          {/* <Activity />
+          <Statistics /> */}
         </div>
 
         <div className='overview__charts-transfers'>
-          <div className=''>Quick Transfer</div>
+          <Transfer />
           <div className=''>Balance History</div>
         </div>
       </div>
