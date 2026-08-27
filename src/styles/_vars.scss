@@ -1,8 +1,8 @@
 :root {
-  // Test BG Colors
+  // =========== Test BG Colors ===========
   --test-bg-color: background-color: rgba(164, 222, 164, 0.57);
 
-  // Global Colors
+  // =========== Global Colors ===========
   --primary: #feaa09;
   --main: #343c6a;
   --main-white-color: #fff;
@@ -14,7 +14,7 @@
   --color-muted: #718ebf;
   --active-bar-hover-bg: #b6bdca71;
 
-  // Charts Colors
+  // =========== Charts Colors ===========
 
   // Тема графиков статистики расходов (pie-chart)
   --chart-entertainment: var(--main);
@@ -26,9 +26,10 @@
 
   // Quick Transfer Colors
   --user-name-color: #232323;
-  --user-role-color: var(--color-muted);
+  --form-input-bg-color: #edf1f7;
+  --btn-bg-color: #1814f3;
 
-  // Fonts
+  // =========== Fonts ===========
   --font-main: 'Inter', sans-serif;
   --font-main-svg-text: 'InterStatic', sans-serif;
   --font-secondary: 'Lato', sans-serif;

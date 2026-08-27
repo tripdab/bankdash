@@ -23,7 +23,7 @@ import userAvatar2x from '../assets/images/user-01@2x.webp';
 !! Не забыть запушить результаты на гитхаб !!
 
 git add .
-git commit -m "refactor: сделал разметку для блока Transfer"
+git commit -m "refactor: временно продублировал карточки user. Сделал кнопку для слайдера. Сделал Input"
 git push
 
 <!-- ======================================= -->
