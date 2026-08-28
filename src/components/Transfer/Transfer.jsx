@@ -74,7 +74,7 @@ const Transfer = () => {
           </label>
           <div className='transfer__input-wrapper'>
             <input
-              className='transfer__input'
+              className='transfer__input no-arrows'
               type='number'
               id='amount-input'
               name='amount'

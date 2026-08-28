@@ -14,6 +14,19 @@
   white-space: nowrap;
   border: 0;
 }
+// Для отключения стрелок в input (стандартное поведение браузера)
+/* Для Chrome, Safari, Edge и Opera */
+input.no-arrows::-webkit-outer-spin-button,
+input.no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Для Firefox */
+input.no-arrows {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
 
 body {
   font-family: var(--font-main);
