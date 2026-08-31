@@ -5,13 +5,11 @@
   &__card {
     padding: 35px 26px;
   }
-
   // .transfer__slider
   &__slider {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
   }
   // .transfer__form
   &__form {
@@ -23,7 +21,6 @@
     color: var(--color-muted);
     font-size: 16px;
   }
-
   // .transfer__label
   &__label {
   }
@@ -34,11 +31,9 @@
     align-items: center;
     border-radius: 50px;
     max-width: 265px;
-    // height: 50px;
     padding-left: 24px;
     background: var(--form-input-bg-color);
   }
-
   // .transfer__input
   &__input {
     width: 100%;
@@ -49,7 +44,6 @@
       color: var(--color-muted);
     }
   }
-
   // .transfer__btn
   &__btn {
     display: flex;
@@ -71,6 +65,12 @@
   &__item {
   }
 
+  // .slider__list
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
   // .slider__btn
   &__btn {
     position: relative;
@@ -87,42 +87,4 @@
       transform: translate(-50%, -50%);
     }
   }
-}
-.user-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  // .user-card__img
-  &__img {
-    border-radius: 50%;
-    margin-bottom: 15px;
-  }
-
-  // .user-card__name
-  &__name {
-    font-size: 16px;
-    color: var(--user-name-color);
-    margin-bottom: 5px;
-  }
-
-  // .user-card__role
-  &__role {
-    font-size: 15px;
-    color: var(--color-muted);
-  }
-}
-
-/* Для Chrome, Safari, Edge и Opera */
-input.no-arrows::-webkit-outer-spin-button,
-input.no-arrows::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Для Firefox */
-input.no-arrows {
-  -moz-appearance: textfield;
-  appearance: textfield;
 }

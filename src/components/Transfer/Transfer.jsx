@@ -1,6 +1,13 @@
+import { useState } from 'react';
 import './Transfer.scss';
+import { usersData } from '../../data/users';
+import UserCard from './UserCard';
 
 const Transfer = () => {
+  // Состояние для хранения id выбранного пользователя (по умолчанию id первого юзера)
+  const [selectedUserId, setSelectedUserId] = useState(
+    usersData[0]?.id,
+  );
   return (
     <section className='transfer'>
       <h2 className='section-title'>Quick Transfer</h2>
@@ -8,48 +15,16 @@ const Transfer = () => {
       <div className='transfer__card widget-block'>
         {/* Slider */}
         <div className='transfer__slider slider'>
-          {/* user card */}
-          <div className='slider__item user-card'>
-            <img
-              src='../src/assets/images/user-01.webp'
-              alt='User-image'
-              className='user-card__img'
-              width={70}
-              height={70}
-            />
-            {/* Name */}
-            <span className='user-card__name'>Livia Bator</span>
-            {/* Role */}
-            <span className='user-card__role'>CEO</span>
-          </div>
-          {/* user card 2 TEST */}
-          <div className='slider__item user-card'>
-            <img
-              src='../src/assets/images/user-01.webp'
-              alt='User-image'
-              className='user-card__img'
-              width={70}
-              height={70}
-            />
-            {/* Name */}
-            <span className='user-card__name'>Livia Bator</span>
-            {/* Role */}
-            <span className='user-card__role'>CEO</span>
-          </div>
-          {/* user card 3 TEST */}
-          <div className='slider__item user-card'>
-            <img
-              src='../src/assets/images/user-01.webp'
-              alt='User-image'
-              className='user-card__img'
-              width={70}
-              height={70}
-            />
-            {/* Name */}
-            <span className='user-card__name'>Livia Bator</span>
-            {/* Role */}
-            <span className='user-card__role'>CEO</span>
-          </div>
+          <ul className='slider__list'>
+            {usersData.map((user) => (
+              <UserCard
+                key={user.id}
+                user={user}
+                isActive={selectedUserId === user.id}
+                onClick={() => setSelectedUserId(user.id)}
+              />
+            ))}
+          </ul>
           {/* Slider Button */}
           <button className='slider__btn' type='button'>
             {/* chevron icon */}
@@ -63,6 +38,7 @@ const Transfer = () => {
                 d='M0.707108 0.707153L7.20711 7.20715L0.707108 13.7072'
                 stroke='#718EBF'
                 stroke-width='2'
+                // strokeWidth='2'
               />
             </svg>
           </button>

@@ -23,7 +23,7 @@ import userAvatar2x from '../assets/images/user-01@2x.webp';
 !! Не забыть запушить результаты на гитхаб !!
 
 git add .
-git commit -m "refactor: Доделал Input. Отключил стрелки в input"
+git commit -m "refactor: Доделал Input. Отключил стрелки в input."
 git push
 
 <!-- ======================================= -->
