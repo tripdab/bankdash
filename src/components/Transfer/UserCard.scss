@@ -1,13 +1,25 @@
 .user-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // user-card__link
+  &__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 97px;
+    &--active {
+      .user-card__name,
+      .user-card__role {
+        font-weight: 700;
+      }
+    }
+  }
 
   // .user-card__img
   &__img {
     border-radius: 50%;
     margin-bottom: 15px;
+    user-select: none;
   }
 
   // .user-card__name
@@ -23,10 +35,12 @@
     color: var(--color-muted);
   }
 
-  &--active {
-    .user-card__name,
-    .user-card__role {
-      font-weight: 700;
-    }
+  &__name,
+  &__role {
+    display: block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
