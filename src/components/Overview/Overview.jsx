@@ -1,3 +1,4 @@
+import Balance from '../Balance/Balance';
 import './Overview.scss';
 // import Cards from '../Cards/Cards';
 // import Transaction from '../Transaction/Transaction';
@@ -9,19 +10,19 @@ const Overview = () => {
   return (
     <div className='overview'>
       <div className='container'>
-        <div className='overview__cards-row'>
-          {/* <Cards /> */}
-          {/* <Transaction /> */}
+        <div className='overview__row overview__row-top'>
+          {/* <Cards />
+          <Transaction /> */}
         </div>
 
-        <div className='overview__charts-row'>
+        <div className='overview__row overview__row-middle'>
           {/* <Activity />
           <Statistics /> */}
         </div>
 
-        <div className='overview__charts-transfers'>
+        <div className='overview__row overview__row-bottom'>
           <Transfer />
-          <div className=''>Balance History</div>
+          <Balance />
         </div>
       </div>
     </div>

@@ -1,15 +1,20 @@
 .overview {
-  // .overview__cards-row
-  &__cards-row {
+  // overview__row
+  &__row {
     display: grid;
-    grid-template-columns: 1fr 350px;
     gap: 30px;
     margin-top: 24px;
   }
-
-  &__charts-row {
-    display: grid;
+  //.overview__row-top
+  &__row-top {
     grid-template-columns: 1fr 350px;
-    margin-top: 24px;
+  }
+  //.overview__row-middle
+  &__row-middle {
+    grid-template-columns: 1fr 350px;
+  }
+  //.overview__row-
+  &__row-bottom {
+    grid-template-columns: 1fr 635px;
   }
 }

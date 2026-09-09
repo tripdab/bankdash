@@ -29,12 +29,25 @@
   --form-input-bg-color: #edf1f7;
   --btn-bg-color: #1814f3;
 
+  // Balance History Charts
+  --charts-line-color: var(--chart-withdraw-color);
+
   // =========== Fonts ===========
   --font-main: 'Inter', sans-serif;
   --font-main-svg-text: 'InterStatic', sans-serif;
   --font-secondary: 'Lato', sans-serif;
   --font-roboto: 'Roboto', sans-serif;
 }
+
+// <svg width="547" height="177" viewBox="0 0 547 177" fill="none" xmlns="http://www.w3.org/2000/svg">
+//   <path d="M37.7077 104.89C19.0925 112.908 11.4555 138.631 0 155V177H547V41.7511C542.227 41.7511 524.089 26.217 507.383 33.2323C490.677 40.2477 485.904 122.428 457.265 125.435C428.627 128.442 415.262 44.7577 380.418 47.7643C345.574 50.7709 354.166 128.184 321.709 130.947C289.251 133.71 262.045 -5.3524 233.406 0.159658C204.767 5.67172 203.812 67.8084 187.584 77.3293C171.355 86.8502 156.558 63.7996 139.853 68.3095C123.147 72.8194 116.464 122.428 99.281 124.433C82.0977 126.437 56.3229 96.8723 37.7077 104.89Z" fill="url(#paint0_linear_78_696)" fill-opacity="0.5" />
+//   <defs>
+//     <linearGradient id="paint0_linear_78_696" x1="273.5" y1="0" x2="273.5" y2="177" gradientUnits="userSpaceOnUse">
+//       <stop stop-color="#2D60FF" stop-opacity="0.5" />
+//       <stop offset="1" stop-color="#2D60FF" stop-opacity="0" />
+//     </linearGradient>
+//   </defs>
+// </svg>
 
 // Inter Regular 400
 // Inter Medium 500

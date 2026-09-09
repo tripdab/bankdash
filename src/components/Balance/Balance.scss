@@ -1,0 +1,23 @@
+.balance {
+  // .balance__card
+
+  &__card {
+  }
+
+  // .balance__area-chart
+  &__area-chart {
+    width: 100%;
+    max-width: 635px;
+    max-height: 276px;
+    aspect-ratio: 1.618;
+    margin: 0;
+    padding: 30px 25px 20px 0;
+    // background: #000;
+
+    // fill: linear-gradient(
+    //   180deg,
+    //   rgba(45, 96, 255, 0.25) 0%,
+    //   rgba(45, 96, 255, 0) 100%
+    // );
+  }
+}

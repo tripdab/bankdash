@@ -2,7 +2,7 @@ import './Header.scss';
 import searchIcon from '../../assets/icons/search.svg';
 import settingsBtn from '../../assets/icons/settings-btn.svg';
 import notificationBtn from '../../assets/icons/notification-btn.svg';
-import avatarImage from '../../assets/avatar-img.png';
+import avatarImage from '../../assets/images/user-avatar.webp';
 
 const Header = () => {
   return (

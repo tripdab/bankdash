@@ -9,7 +9,6 @@ import { usersData } from '../../data/users';
 import UserCard from './UserCard';
 
 const Transfer = () => {
-  // Состояние для хранения id выбранного пользователя (по умолчанию id первого юзера)
   const [selectedUserId, setSelectedUserId] = useState(
     usersData[0]?.id,
   );
