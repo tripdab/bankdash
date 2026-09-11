@@ -5,20 +5,14 @@ export const BALANCE_DATA = [
   },
   {
     month: 'Aug',
-    value: 310,
+    value: 510,
   },
-  // {
-  //   month: '',
-  //   value: 240,
-  // },
+
   {
     month: 'Sep',
-    value: 480,
+    value: 280,
   },
-  // {
-  //   month: '',
-  //   value: 430,
-  // },
+
   {
     month: 'Oct',
     value: 780,
@@ -35,8 +29,8 @@ export const BALANCE_DATA = [
     month: 'Jan',
     value: 230,
   },
-  // {
-  //   month: '',
-  //   value: 630,
-  // },
+  {
+    month: '',
+    value: 330,
+  },
 ];

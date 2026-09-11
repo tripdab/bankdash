@@ -1,9 +1,10 @@
 .overview {
   // overview__row
   &__row {
+    margin-bottom: 20px;
+    margin-top: 24px;
     display: grid;
     gap: 30px;
-    margin-top: 24px;
   }
   //.overview__row-top
   &__row-top {

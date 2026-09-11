@@ -11,7 +11,7 @@
 !! Не забыть запушить результаты на гитхаб !!
 
 git add .
-git commit -m "refactor: Изменил фото в Header. "
+git commit -m "refactor: секция Balance: Готова"
 git push
 
 <!-- ======================================= -->

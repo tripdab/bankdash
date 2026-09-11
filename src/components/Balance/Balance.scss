@@ -12,12 +12,10 @@
     aspect-ratio: 1.618;
     margin: 0;
     padding: 30px 25px 20px 0;
-    // background: #000;
+  }
 
-    // fill: linear-gradient(
-    //   180deg,
-    //   rgba(45, 96, 255, 0.25) 0%,
-    //   rgba(45, 96, 255, 0) 100%
-    // );
+  // .balance__cartesian-grid
+  &__cartesian-grid {
+    stroke: var(--balance-history-cartesian-grid-color);
   }
 }

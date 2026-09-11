@@ -5,8 +5,7 @@ import {
   Tooltip,
   XAxis,
   YAxis,
-} from 'recharts'; //
-// =====================
+} from 'recharts';
 import './Balance.scss';
 import { BALANCE_DATA } from '../../data/balance';
 const Balance = () => {
@@ -24,33 +23,38 @@ const Balance = () => {
           responsive
           data={BALANCE_DATA}>
           <defs>
-            <linearGradient
-              id='colorUv'
-              x1='273.5'
-              y1='0'
-              x2='273.5'
-              y2='177'>
+            <linearGradient id='colorUv' x1='0' y1='0' x2='0' y2='1'>
+              {' '}
+              // 177
               <stop
-                offset='5%'
-                stopColor='#2D60FF'
-                stopOpacity={0.5}
+                offset='0%'
+                stopColor='var(--accent-color)'
+                stopOpacity={0.25}
               />
               <stop
-                offset='95%'
-                stopColor='#2D60FF'
+                offset='100%'
+                stopColor='var(--accent-color)'
                 stopOpacity={0}
               />
             </linearGradient>
           </defs>
-          <CartesianGrid />
+          <CartesianGrid
+            strokeDasharray='4 4'
+            className='balance__cartesian-grid'
+          />
           <XAxis
             dataKey='month'
             axisLine={false}
-            tick={{ fill: '#64748b', fontSize: 14 }}
+            tickSize={5}
+            tick={{ fill: 'var(--color-muted)', fontSize: 14 }}
           />
           <YAxis
             axisLine={false}
-            tick={{ fill: '#64748b', fontSize: 14 }}
+            tickSize={7}
+            tick={{
+              fill: 'var(--color-muted)',
+              fontSize: 14,
+            }}
           />
           <Tooltip />
           <Area
@@ -62,6 +66,7 @@ const Balance = () => {
             fill='url(#colorUv)'
             animationBegin={200}
             animationDuration={1300}
+            strokeWidth={3}
           />
         </AreaChart>
       </figure>
