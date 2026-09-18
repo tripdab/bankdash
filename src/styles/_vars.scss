@@ -3,8 +3,13 @@
   --test-bg-color: rgba(164, 222, 164, 0.57);
 
   // =========== Global Colors ===========
-  --primary: #feaa09;
-  --main: #343c6a;
+  // 1. ГЛОБАЛЬНАЯ ПАЛИТРА (Primitives)
+  //    Именуем по базовой роли или оттенкам. Не привязываем к компонентам.
+  // --primary: #feaa09;
+  // --clr-primary-orange: #feaa09;
+  // --main: #343c6a;
+  // --text-primary: #343c6a;
+  --main-text-color: #343c6a;
   --main-white-color: #fff;
   --accent-color: #2d60ff;
   --secondery: #fe5c73;
@@ -14,10 +19,13 @@
   --color-muted: #718ebf;
   --active-bar-hover-bg: #b6bdca71;
 
+  //    2. СЕМАНТИЧЕСКИЕ ПЕРЕМЕННЫЕ (Смысловые)
+  //  Используем паттерн: [контекст]-[элемент]-[состояние]
+
   // =========== Charts Colors ===========
 
   // Тема графиков статистики расходов (pie-chart)
-  --chart-entertainment: var(--main);
+  --chart-entertainment: var(--main-text-color);
   --chart-bill: #fc7900;
   --chart-others: #1814f3;
   --chart-investment: #fa00ff;
