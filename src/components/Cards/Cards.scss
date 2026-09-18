@@ -20,3 +20,15 @@
     gap: 30px;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .cards {
+    max-width: 487px;
+    &__btn {
+      font-size: 15px;
+    }
+    &__list {
+      gap: 25px;
+    }
+  }
+}

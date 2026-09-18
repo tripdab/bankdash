@@ -2,13 +2,12 @@
   // =========== Test BG Colors ===========
   --test-bg-color: rgba(164, 222, 164, 0.57);
 
-  // =========== Global Colors ===========
   // 1. ГЛОБАЛЬНАЯ ПАЛИТРА (Primitives)
   //    Именуем по базовой роли или оттенкам. Не привязываем к компонентам.
-  // --primary: #feaa09;
-  // --clr-primary-orange: #feaa09;
-  // --main: #343c6a;
-  // --text-primary: #343c6a;
+  //    2. СЕМАНТИЧЕСКИЕ ПЕРЕМЕННЫЕ (Смысловые)
+  //  Используем паттерн: [контекст]-[элемент]-[состояние]
+
+  // =========== Global Colors ===========
   --main-text-color: #343c6a;
   --main-white-color: #fff;
   --accent-color: #2d60ff;
@@ -19,8 +18,13 @@
   --color-muted: #718ebf;
   --active-bar-hover-bg: #b6bdca71;
 
-  //    2. СЕМАНТИЧЕСКИЕ ПЕРЕМЕННЫЕ (Смысловые)
-  //  Используем паттерн: [контекст]-[элемент]-[состояние]
+  // =========== Header Colors ===========
+  --placeholder-color: #8ba3cb;
+
+  // =========== Bank Card Colors ===========
+  --color-purple-500: #4c49ed;
+  --color-blue-700: #0a06f4;
+  --bank-card-border-color: #dfeaf2;
 
   // =========== Charts Colors ===========
 

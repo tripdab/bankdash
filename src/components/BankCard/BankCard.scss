@@ -8,22 +8,22 @@
   }
 
   &--dark {
-    color: #fff;
+    color: var(--main-white-color);
     background: linear-gradient(
       107.38deg,
-      #4c49ed 2.35%,
-      #0a06f4 101.08%
+      var(--color-purple-500) 2.35%,
+      var(--color-blue-700) 101.08%
     );
   }
 
   &--light {
-    border: 1px solid #dfeaf2;
+    border: 1px solid var(--bank-card-border-color);
     .bank-card__label {
       color: #718ebf;
     }
 
     .bank-card__footer {
-      border-top: 1px solid #dfeaf2;
+      border-top: 1px solid var(--bank-card-border-color);
       margin-top: -1px;
     }
   }
