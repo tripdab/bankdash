@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Sidebar.scss';
-import logoIcon from '../../assets/logo.png';
+import logoIcon from '../../assets/logo.svg';
 import SidebarItem from '../SidebarItem/SidebarItem';
 import sidebarData from '../../data/sidebarItemsData.json';
 
