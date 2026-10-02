@@ -28,29 +28,30 @@ const BankCard = ({
           </div>
         </div>
         <div className='bank-card__bottom'>
-          <div className='bank-card__info'>
-            <div className='bank-card__info-box'>
-              <span className='bank-card__label bank-card__label--info'>
-                CARD HOLDER
-              </span>
-              <p className='bank-card__info-value'>{holder}</p>
-            </div>
+          {/* <div className='bank-card__info'></div> */}
+          <div className=' bank-card__holder'>
+            <span className='bank-card__label bank-card__label--info'>
+              CARD HOLDER
+            </span>
+            <p className='bank-card__info-value'>{holder}</p>
+          </div>
 
-            <div className='bank-card__info-box'>
-              <span className='bank-card__label bank-card__label--info'>
-                VALID THRU
-              </span>
-              <p className='bank-card__info-value'>{validThru}</p>
-            </div>
+          <div className='bank-card__valid'>
+            <span className='bank-card__label bank-card__label--info'>
+              VALID THRU
+            </span>
+            <p className='bank-card__info-value'>{validThru}</p>
           </div>
         </div>
       </div>
 
       <div className='bank-card__footer'>
         <span className='bank-card__number'>{number}</span>
-        <div className='bank-card__icon'>
-          <img src={currentLogo} alt='Card logo icon' />
-        </div>
+        <img
+          className='bank-card__icon'
+          src={currentLogo}
+          alt='Card logo icon'
+        />
       </div>
     </div>
   );

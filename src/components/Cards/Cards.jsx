@@ -12,7 +12,7 @@ const Cards = () => {
         <BankCard
           theme='dark'
           balance='$5,756'
-          holder='Aleksei Danilov'
+          holder='Aleksei Daniloff'
           validThru='12/30'
           number='3778 **** **** 1234'
         />
