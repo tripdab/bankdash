@@ -21,7 +21,11 @@ const Transaction = () => {
               <li className='transaction__item' key={id}>
                 <div
                   className={`transaction__icon-box transaction__icon-box--${iconColor}`}>
-                  <img src={icon} alt='Transaction icon' />
+                  <img
+                    className='transaction__icon'
+                    src={icon}
+                    alt='Transaction icon'
+                  />
                 </div>
                 <div className='transaction__info'>
                   <span className='transaction__name'>{name}</span>

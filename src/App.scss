@@ -10,3 +10,16 @@
   flex-direction: column;
   margin-left: 250px;
 }
+
+// media
+@media only screen and (max-width: 1024px) {
+  .dashboard-body {
+    margin-left: 230px;
+  }
+}
+// 768
+@media only screen and (max-width: 768px) {
+  .dashboard-body {
+    margin-left: 0px;
+  }
+}

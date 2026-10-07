@@ -1,8 +1,8 @@
 .overview {
   // overview__row
   &__row {
-    margin-bottom: 20px;
     margin-top: 24px;
+    margin-bottom: 30px;
     display: grid;
     gap: 30px;
   }
@@ -17,5 +17,21 @@
   //.overview__row-
   &__row-bottom {
     grid-template-columns: 1fr 635px;
+  }
+}
+
+// Media
+@media only screen and (max-width: 1024px) {
+  .overview {
+    &__row {
+      gap: 25px;
+    }
+    &__row-top {
+      grid-template-columns: 1fr 231px;
+    }
+    &__row-middle {
+    }
+    &__row-bottom {
+    }
   }
 }

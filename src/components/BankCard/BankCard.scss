@@ -1,5 +1,6 @@
 .bank-card {
-  max-width: 350px;
+  // max-width: 350px;
+  width: 350px; // 231 - 350
   font-family: var(--font-secondary);
 
   // .bank-card__header
@@ -62,8 +63,8 @@
 
   // bank-card__chip
   &__chip {
-    width: 35px;
-    height: 35px;
+    width: clamp(29px, 1.68rem + 0.56vw, 35px);
+    height: clamp(29px, 1.68rem + 0.56vw, 35px);
   }
 
   // .bank-card__bottom
@@ -139,21 +140,20 @@
       margin-bottom: 23px;
     }
 
-    // .bank-card__label
     &__label {
       font-size: 11px;
+      line-height: 1.2;
     }
 
-    // bank-card__balance-value
     &__balance-value {
       font-size: 16px;
     }
 
     // bank-card__chip
-    &__chip {
-      width: 29px;
-      height: 29px;
-    }
+    // &__chip {
+    //   width: 29px;
+    //   height: 29px;
+    // }
 
     // .bank-card__bottom
     &__bottom {

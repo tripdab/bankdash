@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './Header.scss';
 import searchIcon from '../../assets/icons/search.svg';
 import settingsBtn from '../../assets/icons/settings-btn.svg';
@@ -5,10 +6,25 @@ import notificationBtn from '../../assets/icons/notification-btn.svg';
 import avatarImage from '../../assets/images/user-avatar.webp';
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuOpen((prev) => !prev);
+  };
   return (
     <header className='header'>
       <div className='container'>
         <div className='header__row'>
+          {/*  */}
+          <button
+            type='button'
+            className={`header__burger-btn ${isMenuOpen ? 'is-open' : ''}`}
+            aria-label={isMenuOpen ? 'Закрыть меню' : 'Открыть меню'}
+            onClick={toggleMenu}>
+            <span
+              className={`header__burger-icon ${isMenuOpen ? 'is-open' : ''}`}></span>
+          </button>
+
+          {/*  */}
           <div className='header__left'>
             <h1 className='header__title title'>Overview</h1>
           </div>

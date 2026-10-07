@@ -1,10 +1,10 @@
-import Balance from '../Balance/Balance';
+// import Balance from '../Balance/Balance';
 import './Overview.scss';
 import Cards from '../Cards/Cards';
 import Transaction from '../Transaction/Transaction';
-import Activity from '../Activity/Activity';
-import Statistics from '../Statistics/Statistics';
-import Transfer from '../Transfer/Transfer';
+// import Activity from '../Activity/Activity';
+// import Statistics from '../Statistics/Statistics';
+// import Transfer from '../Transfer/Transfer';
 
 const Overview = () => {
   return (
@@ -16,13 +16,13 @@ const Overview = () => {
         </div>
 
         <div className='overview__row overview__row-middle'>
-          <Activity />
-          <Statistics />
+          {/* <Activity />
+          <Statistics /> */}
         </div>
 
         <div className='overview__row overview__row-bottom'>
-          <Transfer />
-          <Balance />
+          {/* <Transfer />
+          <Balance /> */}
         </div>
       </div>
     </div>
